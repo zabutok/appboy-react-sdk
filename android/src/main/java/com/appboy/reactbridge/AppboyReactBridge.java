@@ -888,7 +888,7 @@ public class AppboyReactBridge extends ReactContextBaseJavaModule {
         }
       });
     } catch (Exception e) {
-      AppboyLogger.e(TAG, "Something went wrong in hideCurrentInAppMessage: " + e.getMessage());
+      AppboyLogger.e(TAG, "Something went wrong in hideCurrentInAppMessage: ", e);
     }
   }
 
